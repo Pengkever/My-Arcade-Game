@@ -6,6 +6,7 @@ Clone and download the files. Decompressing files and open the "index.html" with
 
 ## Tips
 * By the **↑ → ↓ ←** controlling your role.
-* If the role's position out of the environment,it will be called to the place where it was born.
+* If the role's position out of the environment,or the enemies have a collision with the role,it will be called to the place where it was born.
 * More levels, the more enemies and more fast.
+* 
 
