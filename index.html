@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript"></script>
+</head>
+<body>
+    <div class="container">        
+        <div class="title">关卡<span id="count">1</span></div>
+        <div class="passed">
+            <p><img src="images/Star.png"><img src="images/Star.png"><img src="images/Star.png"></p>
+            <p>Congratulations!</p>
+            <p>You won!</p>
+            <p>Continue and more enemy, more fast!</p>
+            <button type="" id="continue">Continue</button>
+        </div>
+        <div class="tips">Tips:
+            <ul>
+                <li>通过键盘功能区↑、↓、←、→操控人物移动</li>
+                <li>人物超过地图左、右、下边界，会重置到初始位置（最下方中间草坪）</li>
+                <li>随着关卡增长，敌人的数量和速度都会有所提升</li>
+            </ul>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>
+
+
+
